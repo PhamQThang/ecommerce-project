@@ -1,16 +1,16 @@
-import { ReactNode } from 'react';
-import ClientNavbar from '@/components/ClientNavbar';
+import Footer from "@/components/common/Footer";
+import Header from "@/components/common/Header";
 
-export const metadata = {
-  title: 'Ecommerce Client',
-  description: 'Explore our products',
-};
-
-export default function ClientLayout({ children }: { children: ReactNode }) {
+export default function ClientLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <div>
-      <ClientNavbar />
+    <div className="min-h-screen bg-gray-100">
+      <Header />
       <main>{children}</main>
+      <Footer />
     </div>
   );
 }

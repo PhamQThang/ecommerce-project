@@ -1,16 +1,17 @@
-import { ReactNode } from 'react';
-import AdminSidebar from '@/components/AdminSidebar';
+import Footer from "@/components/common/Footer";
+import Header from "@/components/common/Header";
 
-export const metadata = {
-  title: 'Ecommerce Admin',
-  description: 'Admin dashboard',
-};
 
-export default function AdminLayout({ children }: { children: ReactNode }) {
+export default function ClientLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <div className="flex">
-      <AdminSidebar />
-      <main className="flex-1">{children}</main>
+    <div className="min-h-screen bg-gray-100">
+      <Header />
+      <main>{children}</main>
+      <Footer />
     </div>
   );
 }
