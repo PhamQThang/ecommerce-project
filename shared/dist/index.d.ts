@@ -1,2 +1,1 @@
-export * from './types';
-export * from './utils/auth';
+export * from '../prisma/generated/client';
