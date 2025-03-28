@@ -27,7 +27,7 @@ const Footer = () => {
 
         {/* Cột 2: Thông tin cửa hàng */}
         <div>
-          <h2 className="font-bold mb-3">Thông tin liên hệ</h2>
+          <h2 className="font-bold mb-3 text-xl">Thông tin liên hệ</h2>
           <ul className="space-y-2">
             <li>• Giới thiệu về cửa hàng</li>
             <li>• Tuyển dụng mới nhất</li>
@@ -38,7 +38,7 @@ const Footer = () => {
 
         {/* Cột 3: Chính sách */}
         <div>
-          <h2 className="font-bold mb-3">Chính sách của chúng tôi</h2>
+          <h2 className="font-bold mb-3 text-xl">Chính sách của chúng tôi</h2>
           <ul className="space-y-2">
             <li>• Thu cũ - Đổi mới</li>
             <li>• Chính sách trả góp</li>
@@ -49,7 +49,7 @@ const Footer = () => {
 
         {/* Cột 4: Địa chỉ & Liên hệ */}
         <div>
-          <h2 className="font-bold mb-3">Địa chỉ và liên hệ</h2>
+          <h2 className="font-bold mb-3 text-xl">Địa chỉ và liên hệ</h2>
           <ul className="space-y-2">
             <li className="flex items-center space-x-2">
               <MapPin className="w-5 h-5 text-gray-700" />
